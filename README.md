@@ -6,7 +6,7 @@ This Go program calculates basic statistical measures (average, median, variance
 
 - Reads numbers from a text file
 - Calculates and displays:
-  - Average (mean)
+  - Average
   - Median
   - Variance
   - Standard Deviation
@@ -21,7 +21,7 @@ This Go program calculates basic statistical measures (average, median, variance
 
 2. Run the program using the following command:
 
-   ```
+   ```bash
    go run main.go data.txt
    ```
 
@@ -33,7 +33,7 @@ The input file (`data.txt`) should contain one integer per line. Empty lines are
 
 Example `data.txt`:
 
-```
+```bash
 10
 15
 20
